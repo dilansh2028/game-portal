@@ -37,7 +37,6 @@ public class Quiz extends GameGeneric implements GameWriteable {
                         Category balenciaga = new Category("Balenciaga", "You are very wealthy and like to show off.");
 
                         // dilan did question 1-5, ishaan did questions 6-9
-                        sc.nextLine();
                         System.out.println("What is your username: ");
                         username = sc.nextLine();
 
