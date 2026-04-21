@@ -20,7 +20,7 @@ public class Art extends GameGeneric{
 
         @Override
         public void writeHighScore(File f){
-
+            
         }
 
         @Override

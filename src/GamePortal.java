@@ -7,6 +7,7 @@ import Game.Game;
 import Game.ErrorCheck;
 import buzzfeed.Quiz;
 import AsciiArt.Art;
+import cards.App;
 
 public class GamePortal {
     static Scanner sc = new Scanner(System.in);
@@ -38,7 +39,8 @@ public class GamePortal {
     public static void loadGames() {
         games.clear();
         games.add(new Quiz());
-        games.add(new Art());
+        games.add(new AsciiArt.Art());
+        games.add(new App());
         
     }
 
