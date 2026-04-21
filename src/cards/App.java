@@ -25,14 +25,8 @@ public class App extends PApplet implements GameWriteable {
 
     @Override
     public boolean isHighScore(String score, String currentHighScore) {
-         if (currentHighScore == null){
-            return true;
-         }
-        try {
-            return Integer.parseInt(score) > Integer.parseInt(currentHighScore);
-        } catch (NumberFormatException e) {
-            return true;
-        }
+        if (currentHighScore == null) return true;
+        return Integer.parseInt(score) > Integer.parseInt(currentHighScore);
     }
 
     public void play() {

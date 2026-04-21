@@ -1,18 +1,17 @@
-## Getting Started
+## Game Portal
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This game portal consists of three different games.
 
-## Folder Structure
+[1] - Buzzfeed Quiz 
 
-The workspace contains two folders by default, where:
+This game is a buzzfeed quiz that gives you a clothing brand based on your personality.
+The high score is the most popular category. 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+[2] - Scroll Art
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+This is a 10 second long randomly generated scroll art with no actual score. 
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+[3] - Blackjack
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+This game is through processing and is a standard game of blackjack.
+The high score is the highest total earnings made it one session of playing. 
